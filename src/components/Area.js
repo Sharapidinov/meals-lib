@@ -10,7 +10,7 @@ const Area = () => {
     useEffect(() => {
         axios(`https://www.themealdb.com/api/json/v1/1/filter.php?a=${country}`)
             .then(({data}) => setName(data.meals))
-    } ,[])
+    } ,[country])
 
     return (
         <>

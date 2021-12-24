@@ -23,7 +23,7 @@ const MealsInfo = () => {
                 meal.res = res
                 setFood(meal)
             })
-    }, [])
+    }, [params.id])
 
 
     return (

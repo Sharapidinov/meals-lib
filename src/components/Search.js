@@ -1,10 +1,9 @@
 import React, {useState} from 'react';
 import {Link} from "react-router-dom";
-import axios from "axios";
 import Result from "./Result";
 
 const Search = () => {
-    // const [meal, setMeal] = useState([])
+
     const [name, setName] = useState("")
 
 
