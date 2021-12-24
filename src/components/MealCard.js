@@ -11,7 +11,7 @@ const MealCard = () => {
     useEffect(() => {
         axios(`https://www.themealdb.com/api/json/v1/1/filter.php?i=${name}`)
             .then(({data}) => setIng(data.meals))
-    },[])
+    },[name])
 
     return (
 
