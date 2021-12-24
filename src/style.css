@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.col-5{
+    width: 20%;
+    padding: 10px;
+}
+
+.col-6{
+    width: 50%;
+    padding: 10px;
+}
+.col-3{
+    width: 33.333%;
+    padding: 10px;
+}
+.col-4{
+    width: 25%;
+}
+
+img{
+    width: 100%;
+    height: 85%;
+}
+.card{
+    width: 50%;
+    padding: 20px;
+    background:  bisque;
+    margin: 0 auto;
+
+}
+
+body{
+    background: chocolate;
+}
+.card-img{
+    margin-bottom: 30px;
+    width: 50%;
+
+}
+.card-box{
+    align-items: center;
+    text-align: center;
+
+}
+.title{
+    font-size: 20px;
+    color: purple;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.title-area{
+    color: white;
+    font-size: xxx-large;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.subtitle{
+    margin-bottom: 5px;
+    color: red;
+}
+.price{
+    color: green;
+}
+header{
+    padding: 20px;
+    background:  orange;
+    margin-bottom: 30px;
+    
+}
+a{
+    color: peru;
+    text-decoration: none;
+}
+.search-btn{
+    color: black;
+    background:  white;
+    padding: 2px 3px;
+    text-decoration: none;
+}
+.input{
+    padding: 2px 3px;
+}
+.input-box{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.box{
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    background: black;
+    margin-bottom: 10px;
+}
+button:disabled{
+    border: none;
+    color: gainsboro;
+}
+.box-card{
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    margin-bottom: 30px;
+}
+.box-card a{
+    color: white;
+}
